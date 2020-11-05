@@ -55,3 +55,9 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
