@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$floralwhite:#FFFAF0;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -44,7 +45,18 @@ body{
 .navbar-dark {
     background-color: $background-dark;
 }
-
+.modal-header{
+    background-color:$background-dark;
+    .modal-title{
+        color: $floralwhite;
+    }
+    .close{
+        color:$floralwhite;
+    }
+}
+.modal-body{
+    background-color:$background-pale;
+}
 .tab-content {
    border-left: 1px solid $lt-gray;
    border-right: 1px solid $lt-gray;
@@ -70,4 +82,7 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+.btn-title{
+    color:$floralwhite;
 }
